@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <title>Unit and Supervisor Complaint Percentiles</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+
+<body>
+    <div class="mx-3 pt-3">
+        <h1>Unit and Supervisor Complaint Percentiles</h1>
+        <p class="mb-1">bubbles are labeled by unit number</p>
+        <p class="mt-0">red denotes a unit with a superviser who's individual percentile is above 75</p>
+        <h5>Size bubbles by:</h5>
+        <button class="btn btn-primary" id="percentile" onclick="percentile()">Complaint percentile</button>
+        <button class="btn btn-primary" id="unit_size" onclick="unit_size()">Officers in unit</button>
+        <div id="bubble-percentile" class="mx-0 my-0"></div>
+        <div id="bubble-unit-size" class="mx-0 my-0"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="chart.js"></script>
+    <script src="chart2.js"></script>
+
+</body>
+
+</html>
