@@ -1,23 +1,47 @@
-# A template for creating python based pipeline / workflows
+# Checkpoint 1
 
-This is a template I created for python-based pipelines and workflows.
+## Execution Instructions
 
-## Instructions
+In order to run the pipeline, add the database as "cpdb.db" in the data directory.
 
-### Creating new stage
+If you do not see the data directory, run the following command.
 
-To create a new stage in your pipeline, you have to create a new class that inherits from BaseStage and define the run function. (See stage_download for reference).
+`
+make prep
+`
 
-### Command line arguments
+After you are sure that database is in the data folder, you can run the following command to execute the whole pipeline.
 
-This template uses argparse library for command line argument parsing. See [argparse](https://docs.python.org/3/library/argparse.html#nargs) for documentation.
+`
+make run
+`
 
-### Executing pipeline / workflow
+Alternatively, you can run the SQL scripts found the sql_scripts directory in your SQL editor.
 
-The pipeline can be executed in 2 ways:
- - Execute each stage manually
- - Execute with workflow, which executes all stages
+After you finished running the pipeline, you can clean the workspace with the following commands:
 
-### Logging
+To clean temporary files:
+`
+make clean
+`
 
-This template uses logging library. The workflow generates log files that can be found in logs folder. Use logger.info / debug / error / warning instead of print for proper logging when creating new stages. 
+To remove the database:
+`
+make clean-data
+`
+
+To remove result files:
+`
+make clean-results
+`
+
+To clean everything except for the code:
+`
+make clean-full
+`
+
+After running the pipeline, you can access the logs in the logs directory.
+
+## References
+
+Used [this](https://github.com/iryzhkov/data-science/tree/master/workflow_template) template for the pipeline.
