@@ -3,7 +3,7 @@ The following list the questions answered in this checkpoint and how to run the
 code to return responses to those questions. For each question, if prompted for
 a password, enter the one provided on the checkpoint 1 assignment page.
 
-**Are allegations more likely to be sustained if they come from officers than from citizens, and if so, by how much?**
+###Are allegations more likely to be sustained if they come from officers than from citizens, and if so, by how much?###
 Using psql from the src folder, execute the following command:
 ```bash
 psql -f Q1.sql -h cpdb.cgod7egsd6vr.us-east-2.rds.amazonaws.com -U cpdb-student -d cpdb -p 5432
@@ -16,7 +16,7 @@ This should return something similar to the following:
 (1 row)
 ```
 
-**How many police officers have more/less than X number of average allegations per year? For each officer, what is the primary precinct in which allegations were made?**
+###How many police officers have more/less than X number of average allegations per year? For each officer, what is the primary precinct in which allegations were made?###
 Using psql, execute the following command:
 ```bash
 psql -f Q2.sql -h cpdb.cgod7egsd6vr.us-east-2.rds.amazonaws.com -U cpdb-student -d cpdb -p 5432 -v compare_type="[ 'gt' | 'lt' ]" -v threshold="[integer]"
@@ -66,8 +66,8 @@ The first table returns the answer to the first part of the question (how many?)
 and the `primary_allegation_precinct` column of the second table answers the
 second part of the question (what is the primary precinct?).
 
-**What’s the probability of a police officer having more than X number of allegations in a year if there exists a frequently misbehaving police officer working in the same unit in that year?**
+###What’s the probability of a police officer having more than X number of allegations in a year if there exists a frequently misbehaving police officer working in the same unit in that year?###
 
 
-**Identify the common properties, including investigator name, district name, victim info (number, age and race) of sustained complaints and unfounded complaints.**
+###Identify the common properties, including investigator name, district name, victim info (number, age and race) of sustained complaints and unfounded complaints.###
 
