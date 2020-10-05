@@ -15,7 +15,7 @@ than the individual cases from the news. In this project, with the help of this 
 data science tools, we would like to study how the demographics comparison between the
 complainants and the respective police officers they reported correlate to the number of
 complaints. With such a relationship, we can predict a police officer’s likelihood to be reported for
-misconduct given the police-citizen demographic pairing
+misconduct given the police-citizen demographic pairing.
 
 **[Checkpoint-1: Relational Analytics Questions:](https://github.com/YunanWu2168/Invisible-Institute-Chicago-Reporter-Collaboration-Public/tree/master/The%20Powerful%20Turtles/checkpoint-1)**
 
