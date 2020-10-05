@@ -67,7 +67,18 @@ and the `primary_allegation_precinct` column of the second table answers the
 second part of the question (what is the primary precinct?).
 
 ### What’s the probability of a police officer having more than X number of allegations in a year if there exists a frequently misbehaving police officer working in the same unit in that year? ###
-
+execute
+```
+psql -f Q3.sql -h cpdb.cgod7egsd6vr.us-east-2.rds.amazonaws.com -U cpdb-student -d cpdb -p 5432
+```
+returns
+```
+ year | count 
+------+-------
+ 2000 |  1168
+(1 row)
+```
+change number marked after `/*allegation threshold*/` to see results for each X
 
 ### Identify the common properties, including investigator name, district name, victim info (number, age and race) of sustained complaints and unfounded complaints. ###
-
+Suggested method is execute the script block by block in [DataGrip](https://www.jetbrains.com/datagrip/) without using `drop` lines
