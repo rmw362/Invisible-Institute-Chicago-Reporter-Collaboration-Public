@@ -112,7 +112,7 @@ First generate temporary tables by running Code from question_5.sql lines 0-52: 
 	order by percent_subject_alleged_injuries_not_counted DESC)
 	;
 
-Then to view complaint percentages table as above please run codes from line 55 to 57
+Then to view complaint percentages table, table 5-1 as above please run codes from line 55 to 57
 
 	SELECT *
 	from complaint_percentages
