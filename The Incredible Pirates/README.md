@@ -113,20 +113,24 @@ First generate temporary tables by running Code from question_5.sql lines 0-52: 
 	;
 
 Then to view complaint percentages table as above please run codes from line 55 to 57
+
 	SELECT *
 	from complaint_percentages
 	Limit 20;
 
 To view the average numberof complaints referenced above run the code from line 60 to 61
+
 	SELECT AVG(percent_complaint)
 	FROM complaint_percentages;
 
 To view table 5.2 “Alleged Injuries not counted” run the code from line 64 to 66
+
 	SELECT *
 	from alleged_injuries_not_counted
 	limit 20;
 
 To view the average of all officers percentage of alleged_injureis not counted run the code from line 69 to 70
+
 	SELECT AVG(percent_subject_alleged_injuries_not_counted)
 	FROM officer_trrs;
 
