@@ -21,7 +21,8 @@ injuries or total number of events.
 
 -- This code will answer question 3 of checkpoint 1:
 -- Please open question_3.sql and run the code: code as follows:
-  -- to view the tables in different orders, just replace order by with the appropriate column header
+-- to view the tables in different orders, just replace order by with the appropriate column header
+  
 	SELECT beat, count(*) total_events,
 		count(case when officer_injured = 'True' then 1 end) as officer_injured,
 		count(case when officer_injured = 'True' then 1 end)*100/count(*) as percent_officer_injured,
