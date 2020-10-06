@@ -11,15 +11,15 @@ In order to run the code snippets below, you can either copy the code into a SQL
 
 ## Questions
  1)	[What percentage of use of force incidents result in injury for citizens? Police officers? Broken down by race, age, neighborhood, 
- use of force (physical, taser, firearm, etc.), and other demographics?](###Question-1) 
+ use of force (physical, taser, firearm, etc.), and other demographics?](##Question-1) 
  2)	[Are there differences in injury pattern in relation to different types of uses of force, i.e. taser vs. firearms vs. other, 
- stratified by race?](###Question-2)
+ stratified by race?](##Question-2)
  3)	[Are neighborhoods with higher rates of officer injury reports more likely to be associated with complaints and use of force fillings?](###Question-3) 
- 4)	[Are individual officers more likely to be involved in use of force incidents that lead to injury?](###Question-4)
+ 4)	[Are individual officers more likely to be involved in use of force incidents that lead to injury?](##Question-4)
  5)	[Are individual officers more likely to underreport injuries - ie are they less likely to report injury in TRR when injury is alleged 
- by a complainant?](###Question-5)
+ by a complainant?](##Question-5)
 
-###Question 1:
+## Question 1:
 Question_1.sql
 What percentage of use of force incidents result in injury for citizens? Police officers? Broken down by race, age, neighborhood, 
  use of force (physical, taser, firearm, etc.), and other demographics?
@@ -152,7 +152,7 @@ ORDER BY subject_injuries DESC
 LIMIT 10;
 ```
 
-###Question 2:
+## Question 2:
  Question_2.sql
 Are there differences in injury pattern in relation to different types of uses of force, i.e. taser vs. firearms vs. other, 
  stratified by race?
@@ -230,7 +230,7 @@ GROUP BY subject_race
 ORDER BY percent_subject_injuries DESC;
 ```
 
-### Question 3:
+## Question 3:
 Are neighborhoods with higher rates of officer injury reports more likely to be associated with subject injuries or total number of events.  
 
 -- This code will answer question 3 of checkpoint 1:
@@ -247,7 +247,7 @@ Are neighborhoods with higher rates of officer injury reports more likely to be 
 	order by officer_injured desc;
 
 
-##Question 4:
+## Question 4:
 Are individual officers more likely to be involved with in use of force incidents that lead to injury?
 
 -- This code will answer question 4 of checkpoint 1:
@@ -261,7 +261,7 @@ Are individual officers more likely to be involved with in use of force incident
 	group by officer_id
 	order by subject_injured desc;
   
-##Question 5: 
+## Question 5: 
 Are individual officers more likely to underreport injuries - ie are they less likely to report injury in TRR when injury is alleged 
 by a complainant?
  
