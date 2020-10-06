@@ -11,13 +11,13 @@ In order to run the code snippets below, you can either copy the code into a SQL
 
 ## Questions
  1)	[What percentage of use of force incidents result in injury for citizens? Police officers? Broken down by race, age, neighborhood, 
- use of force (physical, taser, firearm, etc.), and other demographics?](##Question-1) 
+ use of force (physical, taser, firearm, etc.), and other demographics?](#Question-1) 
  2)	[Are there differences in injury pattern in relation to different types of uses of force, i.e. taser vs. firearms vs. other, 
- stratified by race?](##Question-2)
- 3)	[Are neighborhoods with higher rates of officer injury reports more likely to be associated with complaints and use of force fillings?](###Question-3) 
- 4)	[Are individual officers more likely to be involved in use of force incidents that lead to injury?](##Question-4)
+ stratified by race?](#Question-2)
+ 3)	[Are neighborhoods with higher rates of officer injury reports more likely to be associated with complaints and use of force fillings?](#Question-3) 
+ 4)	[Are individual officers more likely to be involved in use of force incidents that lead to injury?](#Question-4)
  5)	[Are individual officers more likely to underreport injuries - ie are they less likely to report injury in TRR when injury is alleged 
- by a complainant?](##Question-5)
+ by a complainant?](#Question-5)
 
 ## Question 1:
 Question_1.sql
