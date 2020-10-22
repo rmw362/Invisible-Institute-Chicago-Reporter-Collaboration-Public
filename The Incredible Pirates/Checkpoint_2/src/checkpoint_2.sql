@@ -1,4 +1,4 @@
-/*data for figure 1.1 and 1.2 */
+/*data for figure 1.1 and 1.2 and Race.csv*/
 SELECT subject_race,
        count(*) AS total_use_of_force_events,
        count(CASE WHEN subject_injured = 'true' THEN 1 END) AS subject_injuries,
@@ -10,7 +10,7 @@ FROM trr_trr
 GROUP BY subject_race
 ORDER BY total_use_of_force_events DESC;
 
-/*data for figure 1.3 and 1.4 */
+/*data for figure 1.3 and 1.4 and Result_63.csv*/
 SELECT CASE
         WHEN subject_age BETWEEN 0 AND 18 THEN '0-18'
         WHEN subject_age BETWEEN 18 AND 40 THEN '18-40'
@@ -25,7 +25,7 @@ FROM trr_trr
 GROUP BY age_group,subject_race
 ORDER BY age_group;
 
-/* data for figure 1.5 and 1.6 */
+/* data for figure 1.5 and 1.6 Result_64.csv*/
 
 SELECT subject_gender, subject_race,
        count(*) AS total_use_of_force_events,
@@ -38,7 +38,7 @@ FROM trr_trr
 GROUP BY subject_gender,subject_race
 ORDER BY total_use_of_force_events DESC;
 
-/*data for figure 2.1 and 2.2
+/*data for figure 2.1 and 2.2 and Districts_HCG.csv
   Due to districts being combined on the map district 12 and 13 are combined.
   Districts 21 23 and 26-30 are not on the map and have not been included*/
 
