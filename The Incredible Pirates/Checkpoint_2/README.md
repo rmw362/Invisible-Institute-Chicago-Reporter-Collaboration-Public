@@ -15,7 +15,7 @@ This section of the code is to create Tableau visualizations. Created visualizat
  
 ## Question-1
 Use of force incidents by demographics (race, gender, age) and percentage that result in injury or lead to emergency medical attention
-For ease of use, csv files have been provided to link to Tableau. After opening the workbook you must enter the correct password for cpdb-student. Please refer to the canvas for this password
+For ease of use, csv files have been provided to link to Tableau. Please open .src\Checkpoint_2_Workbook.twb. After opening the workbook you must enter the correct password for cpdb-student. Please refer to the canvas for this password
 Please link the Race and Race % Sheet with .CP2\Race.csv
 Please link the Age and Age % Sheet with .CP2\Result_63.csv
 Please link the Gender and Gender % Sheet with .CP2\Result_64.csv
@@ -67,7 +67,7 @@ Data for Figure 1.5 and 1.6. Save as Result_64.csv
   
 ## Question-2
 Question 2: Symbol/bubble map to assess geographic distribution for proportion of use of force incidents that result in injury.
-For ease of use, csv files have been provided to link to Tableau. After opening the workbook you must enter the correct password for cpdb-student. Please refer to the canvas for this password
+For ease of use, csv files have been provided to link to Tableau. Please open .src\Checkpoint_2_Workbook.twb. After opening the workbook you must enter the correct password for cpdb-student. Please refer to the canvas for this password
 Please link the district and district % Sheet with .CP2\District_HCG.csv
 Please link the Age and Age % Sheet with .CP2\Result_63.csv
 Please link the Gender and Gender % Sheet with .CP2\Result_64.csv
