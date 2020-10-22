@@ -10,8 +10,8 @@
 This section of the code is to create Tableau visualizations. Created visualizations can be seen in the PDF or in the Tableau Workbook. Please see Question section so that the correct csv file may be linked to the Tableau workbook.
 
 ## Questions
- 1) [Question 1: Use of force incidents by demographics (race, gender, age) and percentage that result in injury or lead to emergency medical attention](Question-1)
- 2) [Question 2: Symbol/bubble map to assess geographic distribution for proportion of use of force incidents that result in injury](Question-1)
+ 1) [Question 1: Use of force incidents by demographics (race, gender, age) and percentage that result in injury or lead to emergency medical attention].(Question-1)
+ 2) [Question 2: Symbol/bubble map to assess geographic distribution for proportion of use of force incidents that result in injury].(Question-1)
 
 ## Question-1
 Use of force incidents by demographics (race, gender, age) and percentage that result in injury or lead to emergency medical attention
