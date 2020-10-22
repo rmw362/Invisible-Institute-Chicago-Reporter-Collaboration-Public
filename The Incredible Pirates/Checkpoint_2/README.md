@@ -1,4 +1,4 @@
-# Checkpoint 2: Hawkins Gay, Alex Leidner, Ramsey Wehbe
+# Checkpoint 2: Hawkins Gay, Alex Leidner, Ramsey Wehbe <br />
 
 
 ## Theme:
@@ -7,23 +7,23 @@
    As the course advances this topic would lend itself to traversing through the data parsing and visualization modules planned. While these are enumerated below, the ultimate task would be to try to parse through reports, using NLP, to add medical resource utilization to the known outcomes of TRR reports, either through parsing reports or inclusion of civil suits. This data, currently not included in attributes, would provide strong additional evidence to explore individual and societal impact.
 
 ##Running the code
-This section of the code is to create Tableau visualizations. Created visualizations can be seen in the PDF or in the Tableau Workbook. Please see Question section so that the correct csv file may be linked to the Tableau workbook.
+This section of the code is to create Tableau visualizations. Created visualizations can be seen in the PDF or in the Tableau Workbook. Please see Question section so that the correct csv file may be linked to the Tableau workbook. <br />
 
 ## Questions
  1)	[Use of force incidents by demographics (race, gender, age) and percentage that result in injury or lead to emergency medical attention](#Question-1) 
  2)	[Symbol/bubble map to assess geographic distribution for proportion of use of force incidents that result in injury.](#Question-2)
  
 ## Question-1
-Use of force incidents by demographics (race, gender, age) and percentage that result in injury or lead to emergency medical attention
-For ease of use, csv files have been provided to link to Tableau. Please open .src\Checkpoint_2_Workbook.twb. After opening the workbook you must enter the correct password for cpdb-student. Please refer to the canvas for this password
-Please link the Race and Race % Sheet with .CP2\Race.csv
-Please link the Age and Age % Sheet with .CP2\Result_63.csv
-Please link the Gender and Gender % Sheet with .CP2\Result_64.csv
+Use of force incidents by demographics (race, gender, age) and percentage that result in injury or lead to emergency medical attention <br />
+For ease of use, csv files have been provided to link to Tableau. Please open .src\Checkpoint_2_Workbook.twb. After opening the workbook you must enter the correct password for cpdb-student. Please refer to the canvas for this password <br />
+Please link the Race and Race % Sheet with .CP2\Race.csv <br />
+Please link the Age and Age % Sheet with .CP2\Result_63.csv <br />
+Please link the Gender and Gender % Sheet with .CP2\Result_64.csv <br />
 
 These csv files were created using the cpdb database and the following SQL queries, which can be found in .src\checkpoint_2.sql. These can be runned and saved as csv files to 
-recreate those tables, or the csv files have been provided as described above.
+recreate those tables, or the csv files have been provided as described above. <br />
 
-Data for figure 1.1 and 1.2. Save as Race.csv
+Data for figure 1.1 and 1.2. Save as Race.csv 
 
  	SELECT subject_race,
         	count(*) AS total_use_of_force_events,
@@ -36,7 +36,7 @@ Data for figure 1.1 and 1.2. Save as Race.csv
   	GROUP BY subject_race
   	ORDER BY total_use_of_force_events DESC;
 
-Data for figure 1.3 and 1.4. Save as Result_63.csv
+Data for figure 1.3 and 1.4. Save as Result_63.csv 
 
   	SELECT CASE
           	WHEN subject_age BETWEEN 0 AND 18 THEN '0-18'
@@ -66,21 +66,19 @@ Data for Figure 1.5 and 1.6. Save as Result_64.csv
   	ORDER BY total_use_of_force_events DESC;
   
 ## Question-2
-Question 2: Symbol/bubble map to assess geographic distribution for proportion of use of force incidents that result in injury.
-For ease of use, csv files have been provided to link to Tableau. Please open .src\Checkpoint_2_Workbook.twb. After opening the workbook you must enter the correct password for cpdb-student. Please refer to the canvas for this password
-Please link the district and district % Sheet with .CP2\District_HCG.csv
-Please link the Age and Age % Sheet with .CP2\Result_63.csv
-Please link the Gender and Gender % Sheet with .CP2\Result_64.csv
+Question 2: Symbol/bubble map to assess geographic distribution for proportion of use of force incidents that result in injury. <br />
+For ease of use, csv files have been provided to link to Tableau. Please open .src\Checkpoint_2_Workbook.twb. After opening the workbook you must enter the correct password for cpdb-student. Please refer to the canvas for this password <br />
+Please link the district and district % Sheet with .CP2\District_HCG.csv <br />
 
 These csv files were created using the cpdb database and the following SQL queries, which can be found in .src\checkpoint_2.sql. These can be runned and saved as csv files to 
-recreate those tables, or the csv files have been provided as described above.
+recreate those tables, or the csv files have been provided as described above. <br />
 
 Figure 2.1 and 2.2 were created by linking beats to districts using the following source:
-[https://news.wttw.com/sites/default/files/Map%20of%20Chicago%20Police%20Districts%20and%20Beats.pdf]
+[https://news.wttw.com/sites/default/files/Map%20of%20Chicago%20Police%20Districts%20and%20Beats.pdf] <br />
 
-Data for figure 2.1 and 2.2
-Due to districts being combined on the map district 12 and 13 are combined.
-Districts 21 23 and 26-30 are not on the map and have not been included
+Data for figure 2.1 and 2.2 <br />
+Due to districts being combined on the map district 12 and 13 are combined.<br />
+Districts 21 23 and 26-30 are not on the map and have not been included. <br />
 
   	SELECT CASE
           	WHEN beat BETWEEN 100 AND 199 THEN '1st'
