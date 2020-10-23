@@ -7,7 +7,12 @@
    As the course advances this topic would lend itself to traversing through the data parsing and visualization modules planned. While these are enumerated below, the ultimate task would be to try to parse through reports, using NLP, to add medical resource utilization to the known outcomes of TRR reports, either through parsing reports or inclusion of civil suits. This data, currently not included in attributes, would provide strong additional evidence to explore individual and societal impact.
 
 ##Running the code
-This section of the code is to create Tableau visualizations. Created visualizations can be seen in the PDF or in the Tableau Workbook. Please see Question section so that the correct csv file may be linked to the Tableau workbook. <br />
+
+This section of the code is to create Tableau visualizations. Created visualizations can be seen in the PDF or in the Tableau Workbook. <br />
+These images were createad with psql 9.06.0201. <br />
+Given connection issues to CPDB through tableau there are two versions of the workbook. <br />
+.src\Checkpoint_2_Workbook_auto.twbx should contain 6/8 images and their table data offline, the final 2 images, Figure 2.1 and 2.2 you must log in with cpdb username and password to access. <br />
+If this file does not allow for visualization please follow the steps ahead to insure that .src\Checkpoint_2_workbook.twb dependancies can be correctly linked. <br />
 
 ## Questions
  1)	[Use of force incidents by demographics (race, gender, age) and percentage that result in injury or lead to emergency medical attention](#Question-1) 
