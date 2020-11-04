@@ -13,19 +13,19 @@ Please open the D3 notebooks for the question of interest. The hyperlinks to the
 
 
 ## Questions
- 1)	[Starburst graph showing nested racial groups, use of force encounters, type of use of force, injuries sustained versus alleged.](#Question-1) 
+ 1)	[Starburst graph showing nested racial groups, use of force encounters, type of use of force, injuries sustained versus alleged.](#Question-1)<br /> 
  2)	[Chloropleth map of Chicago that displays the use of force and attributes of the demographics in the force reports of the district as well as hospitals in that district.](#Question-2)
  
 ## Question-1
 Exapdning treemap, circle packing, and starburst graph showing nested racial groups, use of force encounters, type of use of force, injuries sustained versus alleged. <br />
 
-To use this graph simply click on the area of interest to see its components. You can zoom back out to the full picture by clicking outside of a selected area. <br />
+To use this graph simply click on the area of interest to see its components. If you hover your mouse, still, over a component the total number of force reports for this component will be displayed. You can zoom back out to the full picture by clicking outside of a selected area. <br />
 
 As this information is expressed 3 different ways our group recommends looking at the Circle Packing Graph, as this graph allows representation of all minorities contained in this data. The small sample size mutes them when looking at the starburst map or the treemap. They however have been incldued as they give better representation of percent of the total cases than does the Circle Packing Graph.
 
-[Use of Force and Resultant Injuries Circle Packing Graph](https://observablehq.com/d/47bd6e39f1003039)
-[Use of Force and Resultant Injuries Starburst Graph](https://observablehq.com/d/67d7e63bad8b8aea)
-[Use of Force and Resultant Injuries Treemap Graph](https://observablehq.com/d/e07f177369abcf7e)
+[Use of Force and Resultant Injuries Circle Packing Graph](https://observablehq.com/d/47bd6e39f1003039) <br />
+[Use of Force and Resultant Injuries Starburst Graph](https://observablehq.com/d/67d7e63bad8b8aea) <br />
+[Use of Force and Resultant Injuries Treemap Graph](https://observablehq.com/d/e07f177369abcf7e) <br />
 
 
 Our data was compiled by the following SQL queries. <br />
