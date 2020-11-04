@@ -17,16 +17,16 @@ Please open the D3 notebooks for the question of interest
  2)	[Chloropleth map of Chicago that displays the use of force and attributes of the demographics in the force reports of the district as well as hospitals in that district.](#Question-2)
  
 ## Question-1
-Starburst graph showing nested racial groups, use of force encounters, type of use of force, injuries sustained versus alleged. <br />
+Exapdning treemap, circle packing, and starburst graph showing nested racial groups, use of force encounters, type of use of force, injuries sustained versus alleged. <br />
 To use this graph simply click on the area of interest to see its components. You can zoom back out to the full picture by clicking outside of an area. <br />
 
 Our data was compiled by the following SQL queries. <br />
 
-Data for figure 1 generated as follows, code can be seen in CP 3 Code.sql:
+Data for figure 1 generated as follows, code can be seen in CP 3 Code.sql After these SQL commands were run the csv was convertred into a nested JSON as required to fit the D3 Notebook at https://jsonifyit.com/ :
   
      /*Creates table from trr_trr and trr_actionresponse to link trr with force_type */
      /* Then bins similar types of use of force */
-     /* Then splits into race-> Type of force -> Injury -> alleged injury
+     /* Then splits into race-> Type of force -> Injury -> alleged injury */
      DROP TABLE IF EXISTS weapon_plot2;
      CREATE TEMP TABLE weapon_plot2 AS
          (
@@ -75,6 +75,7 @@ Chloropleth map of Chicago that displays the use of force and attributes of the 
 To use this map simply click on a district of interest. <br />
 
 Data for figure 2 generated as follows, code can be seen in CP 3 Code.sql:
+
      /*Chloropleth tables */
      /* Total_injury.csv */
      /* Total Injury by District */
