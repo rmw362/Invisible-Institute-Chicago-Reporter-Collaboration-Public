@@ -8,20 +8,21 @@
 
 ##Running the code
 
-Please open the D3 notebooks for the question of interest. The hyperlinks to these notebooks can be found in this Readme. The notebook code can be found in the Notebook folder in this directory. The csv files and json file required for this notebook creation can be found in the data folder in this directory.
+Please open the Obvservable D3 notebook URLs for the question of interest. The hyperlinks to these notebooks can be found in this Readme or in the notebook folder in this directory. The csv files and json file required for this notebook creation can be found in the data folder in this directory.
 
 
 
 ## Questions
- 1)	[Starburst graph showing nested racial groups, use of force encounters, type of use of force, injuries sustained versus alleged.](#Question-1)<br /> 
+ 1)	[Circle packing, Expanding Treemap, and Starburst  graph showing nested racial groups, use of force encounters, type of use of force, injuries sustained versus alleged.](#Question-1)<br /> 
  2)	[Chloropleth map of Chicago that displays the use of force and attributes of the demographics in the force reports of the district as well as hospitals in that district.](#Question-2)
  
 ## Question-1
-Exapdning treemap, circle packing, and starburst graph showing nested racial groups, use of force encounters, type of use of force, injuries sustained versus alleged. <br />
+Circle packing, Expanding Treemap, and Starburst graph showing nested racial groups, use of force encounters, type of use of force, injuries sustained versus alleged. <br />
 
 To use this graph simply click on the area of interest to see its components. If you hover your mouse, still, over a component the total number of force reports for this component will be displayed. You can zoom back out to the full picture by clicking outside of a selected area. <br />
 
 As this information is expressed 3 different ways our group recommends looking at the Circle Packing Graph, as this graph allows representation of all minorities contained in this data. The small sample size mutes them when looking at the starburst map or the treemap. They however have been included as they give better representation of percent of the total cases than does the Circle Packing Graph.
+
 
 [Use of Force and Resultant Injuries Circle Packing Graph](https://observablehq.com/d/47bd6e39f1003039) <br />
 [Use of Force and Resultant Injuries Starburst Graph](https://observablehq.com/d/67d7e63bad8b8aea) <br />
@@ -80,7 +81,7 @@ Data for figure 1 generated as follows, code can be seen in CP 3 Code.sql After 
 
 ## Question-2
 Chloropleth map of Chicago that displays the use of force and attributes of the demographics in the force reports of the district as well as hospitals in that district.<br />
-To use this map simply click on a district of interest. <br />
+To use this map simply choose total or percent from the drop down menu to color the map and click on area of interest. <br />
 
 Data for figure 2 generated as follows, code can be seen in CP 3 Code.sql:
 
